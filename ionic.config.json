@@ -1,0 +1,7 @@
+{
+  "name": "CF-IonicFirebase0",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
