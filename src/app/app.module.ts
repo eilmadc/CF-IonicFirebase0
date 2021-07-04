@@ -13,9 +13,8 @@ import { AngularFireModule } from '@angular/fire';
 //Modulo de auntenticacion
 import { AngularFireAuthModule} from '@angular/fire/auth'
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { StatusBar } from '@capacitor/status-bar';
 
-//Modulo autenticacion
-import { AngularFire}
 
 @NgModule({
   declarations: [AppComponent],
