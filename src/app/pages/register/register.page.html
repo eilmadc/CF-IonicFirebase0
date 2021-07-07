@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Login</ion-title>
+    <ion-title>Register</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -9,6 +9,10 @@
     <ion-row>
       <ion-col>
         <ion-item>
+          <ion-label position="floating">Name</ion-label>
+          <ion-input type="texto" [(ngModel)]="name"></ion-input>
+        </ion-item>
+        <ion-item>
           <ion-label position="floating">Email</ion-label>
           <ion-input type="email" [(ngModel)]="email"></ion-input>
         </ion-item>
@@ -16,7 +20,7 @@
           <ion-label position="floating">Password</ion-label>
           <ion-input type="password" [(ngModel)]="password"></ion-input>
         </ion-item>
-        <ion-button shape="round" expand="block" (click)="loginEmail()">Login</ion-button>
+        <ion-button shape="round" expand="block" (click)="createUser()">Create User</ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
